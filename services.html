@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Services</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="icon" href="bolt.svg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="popup" style="display: none;">
+        <div class="arrow-up"></div>
+        <span style="display: flex; justify-content: space-between; align-items: center;">
+            <span id="enterName"></span>
+            <i style="font-size: 30px;" class="fas fa-user-circle"></i>
+        </span>
+        <div class="info">
+            <a href="settings.html"><i class="fas fa-cog"></i>&nbsp;&nbsp;Settings</a>
+            <br>
+            <button id="signOut"><i class="fas fa-sign-out-alt"></i>&nbsp;&nbsp;Log Out</button>
+        </div>
+    </div>
+    <div id="popup2" style="display: none;">   
+        <div class="popupTitle">Contact Amazon</div>
+        <div class="popupBuffer"></div>
+        <div class="popupInfos">
+            <div class="popupInfo" id = "popupMail">Email: <a href = "mailto:john@yahoo.com">john@yahoo.com</a></div>
+            <div class="popupInfo" id = "popupNumber">Phone Number: <a href = "tel:0123456789">0123456789</a></div>
+        </div>
+    </div>
+    <div class="left">
+        <div class="leftTop"><i class="fas fa-bolt"></i></div>
+        <div class="link"><span><i class="fas fa-home"></i>&nbsp;&nbsp; <a href="home.html">Home</a></span>
+        </div>
+        <div class="link active"><span><i class="fas fa-bars"></i>&nbsp;&nbsp; <a
+                    href="services.html">Services</a></span>
+            <div class="block"></div>
+        </div>
+        <div class="link"><span><i class="fas fa-cog"></i>&nbsp;&nbsp; <a href="settings.html">Settings</a></span>
+
+        </div>
+        <div class="link final"><span><i class="fas fa-sign-out-alt"></i>&nbsp;&nbsp; <button id="signOut">Log
+                    Out</button></span></div>
+    </div>
+    <div class="right">
+        <div class="top">
+            Services
+            <span class="user"></span>
+            <span class="person">
+                <div class="userImg">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <button class="openPopup" id="open">
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </span>
+        </div>
+        <div class="stuff">
+            <span class = "searchDiv">
+                <input class = "search" id = "search" placeholder="Search Services" autocomplete = "off">
+                <button class = "searchBtn"><i class = "fas fa-search"></i></button>
+            </span>
+            <div class="services">
+                <div class="service">
+                    <div class="serviceImage"><i class="fab fa-amazon"></i></div>
+                    <span class="serviceTitle">Amazon</span>
+                    <div class="serviceBtns">
+                        <button class = "serviceBtn"><i class="fas fa-book"></i> Learn More</button>
+                        <button class = "serviceBtn"><i class="fas fa-phone-alt"></i> Contact</button>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="serviceImage"><i class="fab fa-windows"></i></div>
+                    <span class="serviceTitle">Windows</span>
+                    <div class="serviceBtns">
+                        <button class = "serviceBtn"><i class="fas fa-book"></i> Learn More</button>
+                        <button class = "serviceBtn"><i class="fas fa-phone-alt"></i> Contact</button>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="serviceImage"><i class="fab fa-apple"></i></div>
+                    <span class="serviceTitle">Apple</span>
+                    <div class="serviceBtns">
+                        <button class = "serviceBtn"><i class="fas fa-book"></i> Learn More</button>
+                        <button class = "serviceBtn"><i class="fas fa-phone-alt"></i> Contact</button>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="serviceImage"><i class="fab fa-android"></i></div>
+                    <span class="serviceTitle">Android</span>
+                    <div class="serviceBtns">
+                        <button class = "serviceBtn"><i class="fas fa-book"></i> Learn More</button>
+                        <button class = "serviceBtn"><i class="fas fa-phone-alt"></i> Contact</button>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="serviceImage"><i class="fab fa-linux"></i></div>
+                    <span class="serviceTitle">Linux</span>
+                    <div class="serviceBtns">
+                        <button class = "serviceBtn"><i class="fas fa-book"></i> Learn More</button>
+                        <button class = "serviceBtn"><i class="fas fa-phone-alt"></i> Contact</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <script src="script.js" async defer></script>
+        <script src="pages.js" async defer></script>
+        <script src="services.js" async defer></script>
+</body>
+
+</html>

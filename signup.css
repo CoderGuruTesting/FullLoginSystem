@@ -1,0 +1,322 @@
+body {
+    display: flex;
+
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    width: 50%;
+    height: 100vh;
+
+    background-color: rgb(250, 250, 250);
+
+    color: rgb(107, 107, 255);
+
+    font-size: 300px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signupBox {
+    width: 30vw;
+    height: 60vh;
+
+    border-radius: 20px;
+
+    background-color: white;
+
+    padding: 20px;
+
+    margin-top: -100px;
+
+    margin-bottom: 15vh;
+}
+
+.signupTitle {
+    width: 100%;
+    height: 6%;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 28px;
+
+    font-weight: bold;
+}
+
+.signupHint {
+    font-size: 18px;
+
+    margin-top: 5px;
+
+    color: rgb(151, 150, 150);
+}
+
+.signupCredentials {
+    width: 100%;
+    height: 70%;
+
+    margin-top: 30px;
+
+    display: inline-block;
+    justify-content: center;
+}
+
+.signupCredential {
+    width: 100%;
+    height: 35%;
+
+    display: inline-block;
+
+    text-align: left;
+
+    font-size: 20px;
+
+    margin-bottom: 10px;
+}
+
+.signupCredentialTitle {
+    margin-bottom: 10px;
+}
+
+.signupCredentialEmail {
+    padding: 5px;
+    padding-left: 15px;
+
+    width: 100%;
+    height: 50px;
+
+    font-size: 17px;
+
+    outline: none;
+
+    border: 1px solid var(--lg);
+
+    border-radius: 25px;
+
+    color: #44474b;
+}
+
+.signupCredentialPassword {
+    padding: 5px;
+    padding-left: 15px;
+
+    width: 100%;
+    height: 50px;
+
+    font-size: 17px;
+
+    outline: none;
+
+    border: 1px solid var(--lg);
+
+    border-radius: 25px;
+
+    color: #44474b;
+}
+
+.signupCredentialPassword2 {
+    padding: 5px;
+    padding-left: 15px;
+
+    width: 100%;
+    height: 50px;
+
+    font-size: 17px;
+
+    outline: none;
+
+    border: 1px solid var(--lg);
+
+    border-radius: 25px;
+
+    color: #44474b;
+}
+
+.signupCredentialUsername {
+    padding: 5px;
+    padding-left: 15px;
+
+    width: 100%;
+    height: 50px;
+
+    font-size: 17px;
+
+    outline: none;
+
+    border: 1px solid var(--lg);
+
+    border-radius: 25px;
+
+    color: #44474b;
+}
+
+.signupButton {
+    outline: none;
+
+    border: none;
+
+    background-color: rgb(107, 107, 255);
+
+    width: 100%;
+    height: 50px;
+
+    border-radius: 25px;
+
+    color: whitesmoke;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.loginPage {
+    font-size: 16px;
+}
+
+.loginPage a {
+    text-decoration: none;
+
+    color: rgb(107, 107, 255);
+
+    font-weight: bold;
+}
+
+.errorEmail {
+    font-size: 15px;
+
+    margin-left: 10px;
+
+    color: rgb(218, 1, 1);
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.errorPassword {
+    font-size: 15px;
+
+    margin-left: 10px;
+
+    color: rgb(218, 1, 1);
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.errorPassword2 {
+    font-size: 15px;
+
+    margin-left: 10px;
+
+    color: rgb(218, 1, 1);
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.errorUsername {
+    font-size: 15px;
+
+    margin-left: 10px;
+
+    color: rgb(218, 1, 1);
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.loginInput {
+    display: flex;
+
+    position: relative;
+}
+
+.showHide {
+    outline: none;
+
+    background-color: transparent;
+
+    cursor: pointer;
+
+    border: none;
+
+    font-size: 18px;
+
+    right: 15px;
+    top: 15px;
+
+    z-index: 1;
+
+    position: absolute;
+
+    color: var(--t);
+}
+
+.showHide2 {
+    outline: none;
+
+    background-color: transparent;
+
+    cursor: pointer;
+
+    border: none;
+
+    font-size: 18px;
+
+    right: 15px;
+    top: 15px;
+
+    z-index: 1;
+
+    position: absolute;
+
+    color: var(--t);
+}
+
+@media only screen and (max-width: 1000px) {
+    .right {
+        display: none;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .signupBox {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .right {
+        display: none;
+    }
+
+    .left {
+        width: 100%;
+
+        align-items: baseline;
+    }
+
+    .signupBox {
+        width: 95%;
+
+        margin-bottom: 0;
+        margin-top: 5vh;
+    }
+}

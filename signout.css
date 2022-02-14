@@ -1,0 +1,25 @@
+body {
+    padding: 50px;
+
+    padding-top: 35vh;
+
+    flex-wrap: wrap;
+}
+
+.title {
+    font-size: 50px;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+
+    color: rgb(107, 107, 255);
+
+    font-size: 30px;
+
+    margin-top: 5vh;
+}

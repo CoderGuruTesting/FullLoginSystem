@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Settings</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="settings.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel = "icon" href = "bolt.svg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="popup" style="display: none;">
+        <div class="arrow-up"></div>
+        <span style="display: flex; justify-content: space-between; align-items: center;">
+            <span id="enterName"></span>
+            <i style="font-size: 30px;" class="fas fa-user-circle"></i>
+        </span>
+        <div class="info">
+            <a href="settings.html"><i class="fas fa-cog"></i>&nbsp;&nbsp;Settings</a>
+            <br>
+            <button id="signOut"><i class="fas fa-sign-out-alt"></i>&nbsp;&nbsp;Log Out</button>
+        </div>
+    </div>
+    <div class="left">
+        <div class="leftTop"><i class="fas fa-bolt"></i></div>
+        <div class="link"><span><i class="fas fa-home"></i>&nbsp;&nbsp; <a href="home.html">Home</a></span></div>
+        <div class="link"><span><i class="fas fa-bars"></i>&nbsp;&nbsp; <a href="services.html">Services</a></span>
+        </div>
+        <div class="link active"><span><i class="fas fa-cog"></i>&nbsp;&nbsp; <a
+                    href="settings.html">Settings</a></span>
+            <div class="block"></div>
+        </div>
+        <div class="link final"><span><i class="fas fa-sign-out-alt"></i>&nbsp;&nbsp; <button id="signOut">Log
+                    Out</button></span></div>
+    </div>
+    <div class="right">
+        <div class="top">
+            Settings
+            <span class="user"></span>
+            <span class="person">
+                <div class="userImg">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <button class="openPopup" id = "open">
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </span>
+        </div>
+        <div class="stuff">
+            <div class="settings">
+                <a class="linkPart" href="settings.html"><i class="fas fa-edit" style="font-size: 25px;"></i> Edit
+                    Profile <div class="sidePiece"></div></a>
+                <a class="linkPart" href="settings2.html"><i class="fas fa-shield-alt" style="font-size: 25px;"></i>
+                    Password & Security</a>
+            </div>
+            <div class="profile">
+                <div class="profileTitle"><i class="fas fa-user-circle"></i></div>
+
+                <div class="credentials">
+                    <div class="information">
+                        <div class="caption">Username</div>
+                        <input class="inputInfo" id="username">
+                    </div>
+                    <div class="information">
+                        <div class="caption">Email</div>
+                        <input class="inputInfo" id="email" autocomplete="off">
+                        <span class="errorEmail" style="display: block;"></span>
+                    </div>
+                </div>
+                <div class="infoChanged" style="display: none;">Profile Updated!</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="settings.js" async defer></script>
+    <script src="script.js" async defer></script>
+    <script src="pages.js" async defer></script>
+</body>
+
+</html>

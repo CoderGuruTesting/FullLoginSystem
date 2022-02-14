@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    --lb: #3c57a1;
+    --db: #192a56;
+    --lg: #7f8fa6;
+    --dg: #718093;
+    --t: #2f3640;
+
+    color: var(--t);
+
+    font-family: 'Montserrat', sans-serif;
+}

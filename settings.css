@@ -1,0 +1,270 @@
+.stuff {
+    display: flex;
+
+    height: 100%;
+}
+
+.settings {
+    width: 20vw;
+    height: 100%;
+
+    overflow: hidden;
+
+    border-right: 1px solid lightgray;
+}
+
+.linkPart {
+    border-bottom: 1px solid lightgray;
+
+    width: 100%;
+
+    padding: 30px;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: var(--t);
+    text-decoration: none;
+}
+
+.sidePiece {
+    height: 85px;
+    width: 3.5px;
+
+    position: absolute;
+
+    right: 65vw;
+
+    background-color: var(--t);
+}
+
+.profile {
+    width: 65vw;
+    height: 86vh;
+
+    padding: 30px;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e9e9e9;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(194, 194, 194);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(146, 146, 146);
+}
+
+.profileTitle {
+    font-size: 175px;
+
+    font-weight: 600;
+
+    margin-top: 10px;
+
+    text-align: center;
+}
+
+.credentials {
+    width: 100%;
+
+    margin-top: 20px;
+
+    padding: 30px;
+}
+
+.information {
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+
+.caption {
+    font-size: 18px;
+
+    margin-bottom: 7.5px;
+}
+
+.inputInfo {
+    width: 100%;
+    height: 40px;
+
+    padding: 10px;
+
+    border: 2px solid rgb(107, 107, 255);
+
+    background-color: rgb(247, 248, 255);
+
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 100%;
+
+    color: var(--t);
+}
+
+.infoChanged {
+    padding: 20px;
+
+    border: 2px solid rgb(107, 107, 255);
+
+    background-color: rgb(107, 107, 255);
+
+    color: white;
+
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 110%;
+
+    cursor: pointer;
+
+    width: 200px;
+
+    text-align: center;
+
+    position: absolute;
+    right: 60%;
+    left: 60%;
+}
+
+.errorEmail {
+    font-size: 15px;
+
+    margin-left: 10px;
+
+    color: rgb(218, 1, 1);
+
+    margin-top: 5px;
+}
+
+/* Settings 2 */
+
+.titlePiece {
+    font-size: 25px;
+}
+
+.passwords {
+    width: 50%;
+
+    margin-top: 15px;
+
+    font-size: 18px;
+}
+
+.caption2 {
+    margin-bottom: 5px;
+}
+
+.inputPass {
+    width: 100%;
+    height: 35px;
+
+    padding: 10px;
+
+    border: 2px solid rgb(107, 107, 255);
+
+    background-color: rgb(247, 248, 255);
+
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 100%;
+}
+
+.showHide {
+    outline: none;
+
+    background-color: transparent;
+
+    cursor: pointer;
+
+    border: none;
+
+    font-size: 16px;
+
+    right: 10px;
+    top: 2.5px;
+
+    z-index: 1;
+
+    position: absolute;
+
+    color: var(--t);
+}
+
+.showHide2 {
+    outline: none;
+
+    background-color: transparent;
+
+    cursor: pointer;
+
+    border: none;
+
+    font-size: 16px;
+
+    right: 10px;
+    top: 2.5px;
+
+    z-index: 1;
+
+    position: absolute;
+
+    color: var(--t);
+}
+
+#change {
+    padding: 12.5px;
+
+    border: 2px solid rgb(107, 107, 255);
+
+    background-color: rgb(107, 107, 255);
+
+    color: white;
+
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 90%;
+
+    cursor: pointer;
+}
+
+.error1 {
+    font-size: 15px;
+
+    margin-left: 10px;
+
+    color: rgb(218, 1, 1);
+
+    margin-top: 5px;
+}
+
+.error2 {
+    font-size: 15px;
+
+    margin-left: 10px;
+
+    color: rgb(218, 1, 1);
+
+    margin-top: 5px;
+}
